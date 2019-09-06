@@ -25,5 +25,6 @@
     "netlify-cms-media-library-uploadcare": "^0.5.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
-  }
+  },
+  "gitHead": "62917f9a39f9be8eb44d31f14311674ccafb18ce"
 }
