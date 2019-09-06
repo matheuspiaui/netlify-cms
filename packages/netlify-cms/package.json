@@ -1,10 +1,10 @@
 {
-  "name": "netlify-cms",
+  "name": "@matheuspiaui/cms",
   "description": "An extensible, open source, Git-based, React CMS for static sites.",
   "version": "2.9.2-beta.1",
   "homepage": "https://www.netlifycms.org",
-  "repository": "https://github.com/netlify/netlify-cms",
-  "bugs": "https://github.com/netlify/netlify-cms/issues",
+  "repository": "https://github.com/matheuspiaui/netlify-cms",
+  "bugs": "https://github.com/matheuspiaui/netlify-cms/issues",
   "main": "dist/netlify-cms.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
