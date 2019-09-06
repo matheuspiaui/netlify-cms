@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.10.0-beta.0 (2019-09-06)
+
+
+### Bug Fixes
+
+* **build:** output aliased cms.js w/ deprecation ([#1526](https://github.com/matheuspiaui/netlify-cms/issues/1526)) ([34c8c2a](https://github.com/matheuspiaui/netlify-cms/commit/34c8c2a))
+* export on netlify-cms and maps on esm ([#2244](https://github.com/matheuspiaui/netlify-cms/issues/2244)) ([6ffd13b](https://github.com/matheuspiaui/netlify-cms/commit/6ffd13b))
+* fix netlify-cms exports ([d0dabc4](https://github.com/matheuspiaui/netlify-cms/commit/d0dabc4))
+* fix netlify-cms webpack plugins ([5af0586](https://github.com/matheuspiaui/netlify-cms/commit/5af0586))
+* fix umd builds ([#2214](https://github.com/matheuspiaui/netlify-cms/issues/2214)) ([e04f6be](https://github.com/matheuspiaui/netlify-cms/commit/e04f6be))
+* log accurate version by distribution ([#1531](https://github.com/matheuspiaui/netlify-cms/issues/1531)) ([95a76ad](https://github.com/matheuspiaui/netlify-cms/commit/95a76ad))
+* pass netlify-cms-core exports through netlify-cms ([#1530](https://github.com/matheuspiaui/netlify-cms/issues/1530)) ([f0af6e8](https://github.com/matheuspiaui/netlify-cms/commit/f0af6e8))
+* register bitbucket backend in netlify-cms ([#1537](https://github.com/matheuspiaui/netlify-cms/issues/1537)) ([99d4b2b](https://github.com/matheuspiaui/netlify-cms/commit/99d4b2b))
+
+
+### Features
+
+* **media:** add external media library support, Uploadcare integration ([#1602](https://github.com/matheuspiaui/netlify-cms/issues/1602)) ([0596904](https://github.com/matheuspiaui/netlify-cms/commit/0596904))
+* **netlify-cms-widget-map:** add map widget ([#2051](https://github.com/matheuspiaui/netlify-cms/issues/2051)) ([18f34d2](https://github.com/matheuspiaui/netlify-cms/commit/18f34d2))
+* add byo react package netlify-cms-app ([#2252](https://github.com/matheuspiaui/netlify-cms/issues/2252)) ([ff4ffd7](https://github.com/matheuspiaui/netlify-cms/commit/ff4ffd7))
+* add cloudinary support ([#1932](https://github.com/matheuspiaui/netlify-cms/issues/1932)) ([1fc2f50](https://github.com/matheuspiaui/netlify-cms/commit/1fc2f50))
+* add ES module builds ([#2215](https://github.com/matheuspiaui/netlify-cms/issues/2215)) ([d142b32](https://github.com/matheuspiaui/netlify-cms/commit/d142b32))
+* provide usable UMD builds for all packages ([#2141](https://github.com/matheuspiaui/netlify-cms/issues/2141)) ([82cc794](https://github.com/matheuspiaui/netlify-cms/commit/82cc794))
+* upgrade to Emotion 10 ([#2166](https://github.com/matheuspiaui/netlify-cms/issues/2166)) ([ccef446](https://github.com/matheuspiaui/netlify-cms/commit/ccef446))
+
+
+
+
+
 ## [2.9.2-beta.1](https://github.com/netlify/netlify-cms/compare/netlify-cms@2.9.2-beta.0...netlify-cms@2.9.2-beta.1) (2019-05-15)
 
 **Note:** Version bump only for package netlify-cms
