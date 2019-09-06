@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.10.0-beta.2](https://github.com/matheuspiaui/netlify-cms/compare/@matheuspiaui/cms@2.10.0-beta.1...@matheuspiaui/cms@2.10.0-beta.2) (2019-09-06)
+
+**Note:** Version bump only for package @matheuspiaui/cms
+
+
+
+
+
 # [2.10.0-beta.1](https://github.com/matheuspiaui/netlify-cms/compare/@matheuspiaui/cms@2.10.0-beta.0...@matheuspiaui/cms@2.10.0-beta.1) (2019-09-06)
 
 **Note:** Version bump only for package @matheuspiaui/cms
