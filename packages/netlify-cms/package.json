@@ -1,7 +1,7 @@
 {
   "name": "@matheuspiaui/cms",
   "description": "An extensible, open source, Git-based, React CMS for static sites.",
-  "version": "2.10.0-beta.0",
+  "version": "2.10.0-beta.1",
   "homepage": "https://www.netlifycms.org",
   "repository": "https://github.com/matheuspiaui/netlify-cms",
   "bugs": "https://github.com/matheuspiaui/netlify-cms/issues",
