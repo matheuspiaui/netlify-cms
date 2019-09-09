@@ -66,7 +66,7 @@ const targetOutputs = () => {
   return {
     umd: {
       path: umdPath,
-      filename: `${pkg.name}.js`,
+      filename: pkg.main,
       library: toGlobalName(pkg.name),
       libraryTarget: 'umd',
       libraryExport: toGlobalName(pkg.name),
@@ -121,10 +121,10 @@ const baseConfig = ({ target = isProduction ? 'umd' : 'umddir' } = {}) => ({
     target.substr(0, 3) === 'umd'
       ? umdExternals
       : (context, request, cb) => {
-          const externals = Object.keys(pkg.peerDependencies || {});
-          const isPeerDep = dep => new RegExp(`^${dep}($|/)`).test(request);
-          return externals.some(isPeerDep) ? cb(null, request) : cb();
-        },
+        const externals = Object.keys(pkg.peerDependencies || {});
+        const isPeerDep = dep => new RegExp(`^${dep}($|/)`).test(request);
+        return externals.some(isPeerDep) ? cb(null, request) : cb();
+      },
   stats: stats(),
 });
 
