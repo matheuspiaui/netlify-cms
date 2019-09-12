@@ -124,5 +124,11 @@
   "dependencies": {
     "@erquhart/lerna": "^3.14.1",
     "emotion": "^10.0.9"
-  }
+  },
+  "name": "netlify-cms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matheuspiaui/netlify-cms.git",
+  "author": "matheus <matheus.piaui.iami@gmail.com>",
+  "license": "MIT"
 }
